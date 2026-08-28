@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock ,Paper & Scissor Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="welcome">
+            <h1>Welcome! to Rock, Paper & Scissor Game</h1>
+            <h2><i>Choose a random Button from below for start the Game</i></h2>
+            <img id="abc" src="assets/intro rock paper and scissor.png" alt="stone,paper,scissor">
+        </div>
+        
+    </header>
+
+    <main>
+        <div class="images">
+            <button class="choose" id="rock"><img id="rps" src="/assets/image (1).png" alt="rock"></button>
+            <button class="choose" id="paper"><img id="rps" src="/assets/image (3).png" alt="paper"></button>
+            <button class="choose" id="scissor"><img id="rps" src="/assets/scissor.png.png" alt="scissor"></button>
+        </div>
+
+        <div class="score-board">
+            <div class="score">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+            <div class="score">
+                <p id="comp-score">0</p>
+                <p>Bot</p>
+            </div>
+        </div>
+
+        <div class="play">
+            <button class="playBtn">Choose your Move from above</button>
+        </div>
+
+        <button class = "reset">
+            Reset
+        </button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
